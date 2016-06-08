@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A139435A1CFB682700033675 /* LocationAnnotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13943591CFB682700033675 /* LocationAnnotaion.swift */; };
+		A139435C1CFB68A400033675 /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139435B1CFB68A400033675 /* LocationAnnotationView.swift */; };
+		A13943601CFBFB6B00033675 /* StationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139435F1CFBFB6B00033675 /* StationInfoViewController.swift */; };
 		A1C5929C1CF605E2000DB4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5929B1CF605E2000DB4C2 /* AppDelegate.swift */; };
 		A1C5929E1CF605E2000DB4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5929D1CF605E2000DB4C2 /* ViewController.swift */; };
 		A1C592A11CF605E2000DB4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C5929F1CF605E2000DB4C2 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A13943591CFB682700033675 /* LocationAnnotaion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotaion.swift; sourceTree = "<group>"; };
+		A139435B1CFB68A400033675 /* LocationAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotationView.swift; sourceTree = "<group>"; };
+		A139435F1CFBFB6B00033675 /* StationInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfoViewController.swift; sourceTree = "<group>"; };
 		A1C592981CF605E2000DB4C2 /* GPSMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C5929B1CF605E2000DB4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C5929D1CF605E2000DB4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				A1C592A21CF605E2000DB4C2 /* Assets.xcassets */,
 				A1C592A41CF605E2000DB4C2 /* LaunchScreen.storyboard */,
 				A1C592A71CF605E2000DB4C2 /* Info.plist */,
+				A13943591CFB682700033675 /* LocationAnnotaion.swift */,
+				A139435B1CFB68A400033675 /* LocationAnnotationView.swift */,
+				A139435F1CFBFB6B00033675 /* StationInfoViewController.swift */,
 			);
 			path = GPSMap;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				A1C5929E1CF605E2000DB4C2 /* ViewController.swift in Sources */,
 				A1C5929C1CF605E2000DB4C2 /* AppDelegate.swift in Sources */,
+				A13943601CFBFB6B00033675 /* StationInfoViewController.swift in Sources */,
+				A139435C1CFB68A400033675 /* LocationAnnotationView.swift in Sources */,
+				A139435A1CFB682700033675 /* LocationAnnotaion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GPSMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kpu.2016class..WhatWheather;
+				PRODUCT_BUNDLE_IDENTIFIER = kpu.2016class.WhatWheather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -264,7 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GPSMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kpu.2016class..WhatWheather;
+				PRODUCT_BUNDLE_IDENTIFIER = kpu.2016class.WhatWheather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
